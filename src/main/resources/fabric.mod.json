@@ -12,9 +12,9 @@
     "client": ["com.foldcraft.webtrap.WebTrapClient"]
   },
   "depends": {
-    "fabricloader": ">=0.20.1",
+    "fabricloader": ">=0.16.9",
     "fabric-api": "*",
-    "minecraft": "~1.21.11",
+    "minecraft": "~1.21.4",
     "java": ">=21"
   }
 }
