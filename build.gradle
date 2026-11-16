@@ -30,13 +30,3 @@ processResources {
 tasks.withType(JavaCompile).configureEach {
     it.options.release = 21
 }
-
-java {
-    sourceCompatibility = JavaVersion.VERSION_21
-    targetCompatibility = JavaVersion.VERSION_21
-}
-
-// Отключаем Javadoc, чтобы избежать ошибки в Gradle 8.14+
-tasks.withType(Javadoc).configureEach {
-    enabled = false
-}
